@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg {
+    boxShadow: 
+    0 0 100px 50px gray,
+    0 0 100px 50px white,
+    0 0 100px 50px #515253,
+    0 0 100px 50px white
+  }

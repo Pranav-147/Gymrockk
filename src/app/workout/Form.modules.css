@@ -1,0 +1,22 @@
+select option {
+    background-color: #18181b; /* or any dark color you prefer */
+    color: white;
+  }
+  
+  /* For Firefox */
+  select {
+    -moz-appearance: none;
+    background-color: transparent;
+  }
+  
+  /* For Chrome */
+  select option:checked {
+    background: #f97316; /* orange-500 */
+    color: white;
+  }
+  
+  /* For hover state in Chrome */
+  select option:hover {
+    background: #ea580c; /* orange-600 */
+    color: white;
+  }
